@@ -1,6 +1,7 @@
 body{
     background-color: #0060af !important;
-    font-family: 'Fredoka One', cursive !important; 
+    font-family:'Fredoka One', cursive !important; 
+    color: white;
 }
 
 h1 {
@@ -25,7 +26,7 @@ h1 {
     text-align: center;
     display: block;
     box-shadow: none;
-    font-size: 5em;
+    font-size: 8em;
     transition: border-color background-color box-shadow;
     transition-duration: 300ms;
 }
@@ -38,3 +39,41 @@ h1 {
     box-shadow: 0 0 5px 5px #b1b1b1;
 }
 
+table, td {
+    font-size: 4em;
+    color: white;
+}
+
+.centered {
+    text-align: center;
+}
+
+.tablesDiv {
+    display: inline-block;
+}
+
+.peopleLink {
+    color: white;
+}
+
+.peopleLink:hover{
+    color: red;
+    text-decoration: none;
+}
+
+.back-button{
+    background-color: #0060af;
+    color:white;
+    border: none;
+    text-align: center;
+    font-size: 4em;
+}
+
+#back{
+    color:white;
+}
+
+#back:hover{
+    color: red;
+    text-decoration: none;
+}
